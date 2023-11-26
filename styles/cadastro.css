@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(/resources/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 400px; 
+    margin: 0 auto;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+.cadaster-user{
+    margin-top: 15px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.cadaster-user:hover {
+    scale: 1.1;
+    border-bottom: 1px solid #000;
+}
+

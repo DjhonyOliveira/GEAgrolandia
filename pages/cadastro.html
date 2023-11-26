@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seja Escoteiro</title>
+    <link rel="shortcut icon" href="/resources/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/cadastro.css">
+    <script src="/scripts/cadastro.js" defer></script>
 </head>
 <body>
-    
+    <section>
+        <h1>Cadastre-se em nosso grupo!</h1>
+        <form class="cadaster flex">
+            <div class="inputs">
+                <div class="cadasterName">
+                    <h4>Nome Completo</h4>
+                    <input type="text" name="nome" id="name" placeholder="Nome Completo" required>
+                </div>
+                <div class="cadaster-birth-data">
+                    <h4>Data de Nascimento</h4>
+                    <input type="date" name="data de nascimento" id="birth-data" placeholder="Data de Nascimento" required>
+                </div>
+                <div class="contact">
+                    <h4>Telefone para Contato</h4>
+                    <input type="tel" id="tel" placeholder="Telefone" required> 
+                </div>
+            </div>
+            <button class="cadaster-user">Confirmar Cadastro</button>
+        </form>
+    </section>
 </body>
 </html>
