@@ -1,0 +1,23 @@
+@media (max-width: 520px) {
+    .container-noticias .infos {
+        flex-direction: column;
+    }
+
+    .container-ramos .ramos {
+        flex-direction: column;
+    }
+
+    .container-ramos .title {
+        word-break: normal;
+        width: auto;
+        border: none;
+    }
+
+    .header-botton .navbar-nav {
+        gap: 20px;
+    }
+
+    .header-botton li {
+        margin: 0;
+    }
+}

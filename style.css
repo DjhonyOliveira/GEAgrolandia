@@ -6,6 +6,7 @@
 
 :root {
     --main-color: #22287c;
+    --espaco: 20px;
 }
 
 .flex {
@@ -15,6 +16,11 @@
 .center {
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .header-top {
@@ -91,4 +97,64 @@ footer {
     text-align: center;
     margin: 30px 0;
     gap: 40px;
+}
+
+.nome-ramo {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-ramos .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border-bottom: 1px solid #000;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: var(--espaco)
+}
+
+/* container infos */
+.container-noticias .infos {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px; 
+}
+
+.info-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border-bottom: 1px solid #000;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: var(--espaco)
+}
+
+
+.info {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+
+.info img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.noticia p {
+    margin: 0;
 }
