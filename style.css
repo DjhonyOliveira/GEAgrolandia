@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-color: #22287c;
+}
+
 .flex {
     display: flex;
 }
@@ -16,7 +20,7 @@
 .header-top {
     padding: 20px 0;
     gap: 20px;
-    background-color: #22287c;
+    background-color: var(--main-color);
 }
 
 h1 {
@@ -55,3 +59,28 @@ h1 {
     width: 100%;
     object-fit: cover;
 }
+
+footer {
+    padding: 15px 0;
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.title-social {
+    text-align: center;
+}
+
+
+.footer-top .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.developed {
+    margin-top: 20px;
+    text-align: center;
+}
+
