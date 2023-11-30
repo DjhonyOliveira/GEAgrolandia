@@ -158,3 +158,60 @@ footer {
 .noticia p {
     margin: 0;
 }
+
+/* container descrição */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os parágrafos */
+.container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#leiaMais {
+    margin: 0 auto;
+}
+
+/* Estilo para o contêiner principal */
+.container-wrapper {
+    position: relative;
+}
+
+/* Estilo para o contêiner de descrição */
+.container.description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Estilo para o botão "Leia mais" */
+#leiaMais {
+    position: absolute;
+    bottom: -15px; /* Distância do botão ao fundo do contêiner de descrição */
+    right: 39em; /* Distância do botão à borda direita do contêiner de descrição */
+    padding: 10px 15px;
+    background: none;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: right;
+    margin-top: 10px; /* Distância entre o contêiner de descrição e o contêiner do botão */
+}
