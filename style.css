@@ -29,6 +29,10 @@
     background-color: var(--main-color);
 }
 
+.header-top a {
+    display: flex;
+}
+
 h1 {
     color: #fff;
     text-shadow: 1px 1px #000;
@@ -124,7 +128,7 @@ footer {
     padding: 20px; 
 }
 
-.info-title {
+.info-title, .Info-scouts {
     font-size: 1.2em;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -147,19 +151,15 @@ footer {
     margin: 10px;
 }
 
-
 .info img {
     max-width: 100%;
     border-radius: 4px;
     margin-bottom: 10px;
 }
 
-
 .noticia p {
     margin: 0;
 }
-
-/* container descrição */
 
 .container {
     max-width: 800px;
@@ -171,22 +171,16 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para os parágrafos */
 .container p {
     margin-bottom: 15px;
     line-height: 1.6;
 }
 
-#leiaMais {
-    margin: 0 auto;
-}
-
-/* Estilo para o contêiner principal */
 .container-wrapper {
     position: relative;
+    margin-top: 25px;
 }
 
-/* Estilo para o contêiner de descrição */
 .container.description {
     max-width: 800px;
     margin: 0 auto;
@@ -198,20 +192,8 @@ footer {
     position: relative;
 }
 
-/* Estilo para o botão "Leia mais" */
-#leiaMais {
-    position: absolute;
-    bottom: -15px; /* Distância do botão ao fundo do contêiner de descrição */
-    right: 39em; /* Distância do botão à borda direita do contêiner de descrição */
-    padding: 10px 15px;
-    background: none;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 .button-container {
     text-align: right;
-    margin-top: 10px; /* Distância entre o contêiner de descrição e o contêiner do botão */
+    margin-top: 10px;
 }
